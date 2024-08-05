@@ -67,8 +67,8 @@ html, body {
 .home video {
   width: 100%;
   object-fit: cover;
-  position: relative;
-  top: -120px;
+  position: fixed;
+  top: -125px;
   z-index: -1;
   background-position: center;
   background-size: cover;
@@ -76,12 +76,24 @@ html, body {
 h1 {
   color: aqua;
   position: relative;
-  top: 70px;
+  top: 150px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 320px;
   left: 30px;
 }
 p {
   color: aquamarine;
   position: relative;
-  top: 80px;
-  left: 9%;
+  top: 160px;
+  left: 11%;
+  width: 15%;
+}
+span {
+  font-size: larger;
+  font-family: fantasy;
+  color: linear-gradient(burlywood,white);
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  left: -2px;
 }
