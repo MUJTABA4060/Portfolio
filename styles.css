@@ -13,7 +13,6 @@ html, body {
   align-items: center;
   justify-content: space-between;
   margin: 10px 20px;
-  z-index: 22;
   position: relative;
   /* background-color: aqua; */
 }
@@ -24,6 +23,8 @@ html, body {
   text-decoration: none;
   color: black;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
 }
 .logo:hover {
   color: purple;
@@ -62,10 +63,9 @@ html, body {
 
 .home video {
   width: 100%;
-
   object-fit: cover;
   position: relative;
-  z-index: 8;
+  z-index: -1;
   background-position: center;
   background-size: cover;
 }
