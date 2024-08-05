@@ -42,7 +42,15 @@ html, body {
   color: burlywood;
   transition: all 0.4s;
 }
-
+@media (max-width:385px) {
+    .navbar ul {
+      display: none;
+    }
+    .logo {
+      margin-left: -2px;
+      color: cadetblue;
+    }
+}
 
 
 @media (max-width:770px) {
