@@ -45,16 +45,16 @@ html, body {
   transition: all 0.4s;
 }
 @media (max-width:385px) {
+  
   .home video {
     width: 100%;
     object-fit: cover;
-    position: fixed;
-    top: 0px;
-    z-index: -1;
+    position: relative;
+    top: -125px;
+   z-index: -1;
     background-position: center;
     background-size: cover;
   } 
-  
   .navbar ul {
       display: none;
     }
