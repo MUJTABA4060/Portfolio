@@ -78,8 +78,8 @@ html, body {
 .home video {
   width: 100%;
   object-fit: cover;
-  position: fixed;
-  top: -125px;
+  position: relative;
+  top: -133px;
   z-index: -1;
   background-position: center;
   background-size: cover;
