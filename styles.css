@@ -73,3 +73,9 @@ html, body {
   background-position: center;
   background-size: cover;
 }
+h1 {
+  color: aqua;
+}
+p {
+  color: aquamarine;
+}
