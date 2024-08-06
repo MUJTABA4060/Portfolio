@@ -85,18 +85,15 @@ section.home {
   
   .home video {
     position: relative;
-    top: -9px;
+    top: 2px;
 }
-.navbar{
-  margin: 6px;
- }
+
  .navbar ul{
    display: none;
  }
  .logo {
    font-size: 15px;
-   top: -10px;
-   left: 30px;
+   left: 35px;
    color: coral;
    cursor: pointer;
    position: relative;
