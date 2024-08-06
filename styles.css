@@ -107,7 +107,12 @@ section.home {
 
 @media (max-width:770px) {
   .navbar ul {
-    margin-right: 30%;
+   display: none;
+  }
+  .logo {
+    font-size: 22px;
+    position: relative;
+    left: 55px;
   }
   
 }
