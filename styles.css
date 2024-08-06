@@ -85,6 +85,8 @@ html, body {
   font-size: 15px;
   top: 5px;
   left: 15px;
+  color: coral;
+  cursor: pointer;
  }
 }
 
