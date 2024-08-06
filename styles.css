@@ -87,30 +87,38 @@ section.home {
       transition: 0.4s ease-out;
     }
 }
-@media (max-width:640px) {
+@media (max-width:640px){
+
+  
+  .logo {
+    position: relative;
+    top: 2px;
+    left: 10px;
+  }
   
   .home video {
     position: relative;
     top: -32px;
 }
- .navbar{
+.navbar{
   margin: 6px;
  }
  .navbar ul{
-  display: none;
+   display: none;
  }
  .logo {
-  font-size: 15px;
-  top: 5px;
-  left: 15px;
-  color: coral;
-  cursor: pointer;
- }
+   font-size: 15px;
+   top: 5px;
+   left: 15px;
+   color: coral;
+   cursor: pointer;
+  }
  .logo:hover {
   color: rgba(206, 68, 18, 0.555);
   transition: 0.4s ease-out;
 }
-}
+} 
+
 
 @media (max-width:770px) {
   .navbar ul {
