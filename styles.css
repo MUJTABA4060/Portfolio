@@ -8,11 +8,14 @@ html, body {
   height: 100%;
   
 }
+section.home {
+  margin: -20px;
+}
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 20px;
+ top: 40px;
   position: relative;
   /* background-color: aqua; */
 }
@@ -22,6 +25,7 @@ html, body {
   list-style: none;
   text-decoration: none;
   color: white;
+  left: 65px;
   cursor: pointer;
   position: relative;
   z-index:1;
@@ -48,7 +52,7 @@ html, body {
   width: 100%;
   object-fit: cover;
   position: relative;
-  top: -133px;
+  top: -10px;
   z-index: -1;
   background-position: center;
   background-size: cover;
@@ -87,7 +91,7 @@ html, body {
   
   .home video {
     position: relative;
-    top: -30px;
+    top: -32px;
 }
  .navbar{
   margin: 6px;
