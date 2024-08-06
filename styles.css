@@ -46,6 +46,9 @@ html, body {
 }
 @media (max-width:385px) {
   
+  .home {
+    position: relative;
+  }
   .home video {
     width: 100%;
     object-fit: cover;
