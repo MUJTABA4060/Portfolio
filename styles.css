@@ -78,6 +78,9 @@ html, body {
  .navbar{
   margin: 6px;
  }
+ .navbar ul{
+  display: none;
+ }
 }
 
 @media (max-width:770px) {
