@@ -75,6 +75,7 @@ html, body {
  .navbar{
   margin: 30px;
  }
+}
 
 @media (max-width:770px) {
   .navbar ul {
