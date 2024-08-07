@@ -8,9 +8,7 @@ html, body {
   height: 100%;
   position: absolute;
 }
-section.home {
-  margin: -20px;
-}
+
 .navbar {
   display: flex;
   align-items: center;
