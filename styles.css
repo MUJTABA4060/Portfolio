@@ -89,7 +89,7 @@ section.home {
 @media (max-width: 640px) {
   .home video {
     position: relative;
-    top: -26px;
+    top: -37px;
   }
 
   .navbar ul {
