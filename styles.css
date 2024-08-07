@@ -135,4 +135,13 @@ section.home {
   z-index: 1;
   background-color: antiquewhite;
   width: 40%;
+  top: 47%;
+  left: 3%;
 }
+.paragraph {
+  font-size: 20px;
+  text-align: center;
+  padding: 30px;
+  
+}
+
