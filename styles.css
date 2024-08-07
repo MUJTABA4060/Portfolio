@@ -10,7 +10,7 @@ body {
   position: absolute;
 }
 section.home {
-  height: 273px;
+  height: 100%;
 }
 .navbar {
   display: flex;
@@ -54,7 +54,7 @@ section.home {
   object-fit: cover;
   position: relative;
   top: -10px;
-  height: 273px;
+  height: 100%;
   z-index: -1;
   background-position: center;
   background-size: cover;
