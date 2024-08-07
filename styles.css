@@ -59,7 +59,11 @@ section.home {
   background-position: center;
   background-size: cover;
 }
-
+@media (max-width:1024px) {
+  .navbar ul {
+    margin-right: 34%;
+  }
+}
 @media (max-width: 380px) {
   .home {
     position: relative;
