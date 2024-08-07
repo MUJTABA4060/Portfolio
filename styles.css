@@ -144,4 +144,14 @@ section.home {
   padding: 30px;
   
 }
-
+p {
+  position: relative;
+}
+span{
+  color: cadetblue;
+    position: relative;
+    left: 5px;
+    font-size: 22px;
+    top: 1px;
+    transition: 0.4s ease-out;
+}
