@@ -52,8 +52,8 @@ section.home {
 .home video {
   width: 100%;
   object-fit: cover;
-  position: relative;
-  top: -27px;
+  position: absolute;
+  top: 0px;
   height: 100%;
   z-index: -1;
   background-position: center;
