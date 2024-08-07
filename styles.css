@@ -133,7 +133,7 @@ section.home {
   justify-content: space-between;
   position: absolute;
   z-index: 1;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   width: 40%;
   top: 47%;
   left: 3%;
