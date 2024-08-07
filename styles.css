@@ -132,11 +132,8 @@ section.home {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position: absolute;
   z-index: 1;
-}
-.paragraph {
-  position: relative;
-  top: 20%;
-  left: 30px;
+  background-color: antiquewhite;
+  width: 40%;
 }
