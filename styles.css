@@ -8,7 +8,9 @@ html, body {
   height: 100%;
   position: absolute;
 }
-
+section.home{
+  height: 273px;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -51,6 +53,7 @@ html, body {
   object-fit: cover;
   position: relative;
   top: -10px;
+  height: 273px;
   z-index: -1;
   background-position: center;
   background-size: cover;
@@ -83,7 +86,7 @@ html, body {
   
   .home video {
     position: relative;
-    top: 2px;
+    top: -26px;
 }
 
  .navbar ul{
@@ -116,11 +119,7 @@ html, body {
 }
 
 @media (max-width:1024px) {
-    video{
-   
-      position: absolute;
-      top: -133px;
- }
+  
  .logo:hover {
   color: rgba(206, 68, 18, 0.555);
   transition: 0.4s ease-out;
