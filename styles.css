@@ -141,7 +141,10 @@ section.home {
 .paragraph {
   font-size: 20px;
   text-align: center;
-  padding: 30px;
+  padding: 0px;
+  position: relative;
+  left: 32px;
+  top: -15px;
   
 }
 p {
