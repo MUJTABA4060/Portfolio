@@ -13,7 +13,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
- top: 40px;
+ top: 8px;
   position: relative;
   /* background-color: aqua; */
 }
