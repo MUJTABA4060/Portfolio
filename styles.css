@@ -20,9 +20,31 @@ body {
   justify-content: space-between;
   background-color: beige;
   margin: 1px 20px;
+  width: 90vw;
 }
 .Logo {
   list-style: none;
   text-decoration: none;
   color: blueviolet;
+}
+.navbar ul {
+  display: flex;
+  gap: 30px;
+}
+.navbar ul li  {
+  list-style: none;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.29s ease-in-out;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: blueviolet;
+  transition: 0.3s ease;
+}
+.navbar ul li:hover {
+  background-color: rgba(18, 18, 226, 0.884);
 }
