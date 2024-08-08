@@ -120,10 +120,14 @@ section.home {
     display: none;
   }
   .logo {
-    font-size: 17px;
+    color: rgba(170, 4, 170, 0.747);
+    font-size: 20px;
     position: relative;
-    left: 21px;
-    top: 4px;
+    left: 25px;
+    top: 2px;
+  }
+  .ri-menu-line svg {
+    color: rgba(170, 4, 170, 0.747);
   }
 }
 
