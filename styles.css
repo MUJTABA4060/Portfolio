@@ -30,7 +30,12 @@ body {
   text-decoration: none;
   color: blueviolet;
   position: relative;
+  font-family: monospace;
   left: 75px;
+}
+span {
+  font-size: 20px;
+ color: rgba(214, 214, 16, 0.548);
 }
 .navbar ul {
   display: flex;
@@ -91,18 +96,21 @@ h3 {
   position: relative;
   top: -120px;
   left: 126px;
+  font-family: monospace;
 }
 p{
   width: 150px;
   position: absolute;
   left: 130px;
+  line-height: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   top: 202px;
   text-align: center;
 }
 a.btn {
   position: absolute;
-  top: 340px;
-  left: 182px;
+  top: 350px;
+  left: 180px;
   border: 1.5px solid rgba(230, 228, 230, 0.596);
   padding: 10px;
   border-radius: 20px;
