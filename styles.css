@@ -63,6 +63,7 @@ border-radius: 2px;
   background-color: rgba(52, 52, 126, 0.219);
   border-left: 3px solid blueviolet;
   border-top-left-radius: 15px ;
+  transition: .3s ease-in;
 }
 
 .content {
