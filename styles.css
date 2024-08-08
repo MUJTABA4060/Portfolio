@@ -96,11 +96,11 @@ p{
   width: 150px;
   position: absolute;
   left: 130px;
-  bottom: 165px;
+  top: 202px;
   text-align: center;
 }
 a.btn {
   position: absolute;
-  bottom: 130px;
+  top: 340px;
   left: 182px;
 }
