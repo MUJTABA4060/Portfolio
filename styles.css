@@ -52,6 +52,11 @@ section.home {
   margin-top: 4px;
   color: antiquewhite;
 }
+.ri-menu-line svg ~ :checked{
+    display: inline-block;
+    transform: rotateX('45degrees');
+  color: burlywood;
+}
 .navbar ul li:hover {
   color: burlywood;
   transition: all 0.4s;
