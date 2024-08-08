@@ -84,7 +84,8 @@ border-radius: 2px;
   border-left-style: none;
   border-right: thick;
   position: relative;
-  right: 70px;
+  right: 260px;
+  top: 50px;
 }
 h3 {
   position: relative;
