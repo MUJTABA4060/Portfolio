@@ -85,11 +85,11 @@ border-radius: 2px;
   border-right: thick;
   position: relative;
   right: 260px;
-  top: 10px;
+  top: -15px;
 }
 h3 {
   position: relative;
-  top: -95px;
+  top: -120px;
   left: 126px;
 }
 p{
@@ -103,4 +103,9 @@ a.btn {
   position: absolute;
   top: 340px;
   left: 182px;
+  border: 1.5px solid rgba(230, 228, 230, 0.596);
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: blueviolet;
 }
