@@ -20,7 +20,7 @@ body {
   justify-content: space-between;
   /* background-color: beige; */
   position: fixed;
-  top: 1px;
+  top: -5px;
   z-index: 2;
   margin:  20px;
   width: 90vw;
@@ -36,6 +36,8 @@ body {
 }
 .navbar ul li  {
   list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
   border: 1px solid blueviolet;
   border-radius: 4px;
   border-left: transparent;
