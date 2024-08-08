@@ -29,6 +29,8 @@ body {
   list-style: none;
   text-decoration: none;
   color: blueviolet;
+  position: relative;
+  left: 75px;
 }
 .navbar ul {
   display: flex;
