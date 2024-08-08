@@ -64,3 +64,8 @@ border-radius: 2px;
   border-left: 3px solid blueviolet;
   border-top-left-radius: 15px ;
 }
+
+.content {
+  width: 100vw;
+  height: 100%;
+}
