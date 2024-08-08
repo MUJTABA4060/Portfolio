@@ -50,9 +50,7 @@ body {
   color: rgb(127, 12, 235);
   transition: 0.3s ease;
 }
-.navbar ul li a:hover {
-  color: rgb(51, 65, 55);
-}
+
 .navbar ul li:hover {
   background-color: rgba(52, 52, 126, 0.219);
 }
