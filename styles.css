@@ -142,5 +142,9 @@ button{
   button{
     right: -82px;
         top: 2px;
+        padding: 3px 13px 18px 10px;
+        font-size: 13px;
+        text-align: center;
+        display: flex;
   }
 }
