@@ -100,3 +100,12 @@ button{
     gap: 17px;
   }
 }
+@media (max-width:1024px) {
+  .left {
+    width: 33%;
+    left: 24rem;
+  }
+  button{
+    padding: 12px 1px;
+  }
+}
