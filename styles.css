@@ -156,6 +156,8 @@ button{
     width: 30%;
     left: 2rem;
     font-size: 15px;
+    position: absolute;
+    top: 12px;
   }
   button{
     padding: 2px 7px 15px 7px;
@@ -166,6 +168,8 @@ button{
  a.logo{
   width: 35%;
   left: 22px;
+  position: absolute;
+  top: 12px;
   }
   button{
     padding: 2px 7px 15px 7px;
