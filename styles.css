@@ -19,11 +19,14 @@ body {
   align-items: center;
   justify-content: space-between;
   /* background-color: beige; */
-  position: fixed;
-  top: -5px;
+  position: relative;
+  top: 19px;
+
+padding-bottom: 20px;
   z-index: 2;
-  margin:  20px;
-  width: 90vw;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.418);
+  
 }
 .Logo {
   list-style: none;
@@ -40,6 +43,8 @@ span {
 .navbar ul {
   display: flex;
   gap: 30px;
+  position: relative;
+  right: 50px;
 }
  #active{
 background-color: rgba(44, 25, 66, 0.719);
