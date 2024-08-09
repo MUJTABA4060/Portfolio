@@ -121,10 +121,13 @@ button{
  button{
    
     text-wrap: nowrap;
-        padding: 2px 38px 19px 12px;
-        font-size: 15px;
         position: relative;
-        right: -40px;
+        right: -82px;
+        top: 2px;
+        padding: 3px 13px 18px 10px;
+        font-size: 13px;
+        text-align: center;
+        display: flex;
 }
 
 }
