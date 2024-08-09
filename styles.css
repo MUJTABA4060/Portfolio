@@ -10,9 +10,13 @@ body {
  
 }
 .header {
-  width:100%;
-  color: burlywood;
-  height: 50px;
+  width: 100%;
+    color: burlywood;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    border-bottom-width: thin;
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
 }
 nav {
   display: flex;
@@ -29,18 +33,20 @@ nav {
   top: 1px;
   
 }
+
 a.logo {
-  position: relative;
-  left: 105px;
-  display: flex;
-  align-items: center;
+  position: absolute;
+  left: 10rem;
   text-decoration: none;
-  font-size: 20px;
-  top: 1px;
-  width: 7%;
   font-family: monospace;
-  text-align: center;
+  font-size: x-large;
+  top: 10px;
+  font-weight: 700;
+  width: 7%;
+  align-items: center;
+  display: flex;
 }
+
 .left ul {
   display: flex;
   align-items: center;
