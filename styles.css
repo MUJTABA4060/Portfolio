@@ -114,4 +114,16 @@ button{
     width: 12%;
     left: 4rem;
   }
+  .left{
+    width: 39%;
+    left: 17rem;
+  }
+ button{
+   
+    text-wrap: nowrap;
+        padding: 2px 38px 19px 12px;
+        font-size: 15px;
+        position: relative;
+}
+
 }
