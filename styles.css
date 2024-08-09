@@ -155,6 +155,7 @@ button{
   a.logo{
     width: 30%;
     left: 2rem;
+    font-size: 15px;
   }
   button{
     padding: 2px 7px 15px 7px;
