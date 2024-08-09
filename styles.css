@@ -87,3 +87,16 @@ button{
   font-weight: 549;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+@media  (max-width:1130px) {
+  a.logo {
+    left: 7rem;
+    width: 10%;
+  }
+  .left {
+    width: 27%;
+    left: 28rem;
+  }
+  .left ul {
+    gap: 17px;
+  }
+}
