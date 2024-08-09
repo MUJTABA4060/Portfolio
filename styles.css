@@ -9,3 +9,49 @@ body {
   height: 100vh;
  
 }
+.header {
+  width:100%;
+  color: burlywood;
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  width: 50%;
+  position: relative;
+  left: 9rem;
+  top: 10px;
+}
+.left ul {
+  display: flex;
+  align-items: center;
+}
+.left ul li {
+  list-style: none;
+  justify-content: space-between;
+}
+.left ul li a {
+  text-decoration: none;
+}
+.right{
+  width: 18%;
+}
+button{
+  position: relative;
+  top: 10px;
+  border: 2px solid blueviolet;
+  border-radius: 20px;
+  padding: 5px;
+  height: 20px;
+  width: 70px;
+  text-align: center;
+  font-size: 8px;
+  padding-top: 3.5px;
+  color:slategray;
+  text-transform: uppercase;
+font-weight: 549;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
