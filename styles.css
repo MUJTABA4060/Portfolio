@@ -115,8 +115,8 @@ button{
     left: 4rem;
   }
   .left{
-    width: 39%;
-    left: 17rem;
+    width: 42%;
+        left: 15rem;
   }
  button{
    
@@ -124,6 +124,7 @@ button{
         padding: 2px 38px 19px 12px;
         font-size: 15px;
         position: relative;
+        right: -40px;
 }
 
 }
