@@ -109,3 +109,9 @@ button{
     padding: 2px 1px;
   }
 }
+@media (max-width:830px) {
+  a.logo{
+    width: 12%;
+    left: 4rem;
+  }
+}
