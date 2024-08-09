@@ -128,3 +128,19 @@ button{
 }
 
 }
+@media (max-width:750px) {
+  .left ul {
+    display: none;
+
+  }
+}
+@media (max-width:460px) {
+  a.logo{
+    width: 20%;
+    left: 2rem;
+  }
+  button{
+    right: -82px;
+        top: 2px;
+  }
+}
