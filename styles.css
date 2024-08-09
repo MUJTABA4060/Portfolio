@@ -12,18 +12,22 @@ body {
 .header {
   width:100%;
   color: burlywood;
+  height: 50px;
 }
 nav {
   display: flex;
   width: 100%;
+  position: fixed;
+  height: 40px;
   align-items: center;
   justify-content: space-between;
 }
 .left{
-  width: 50%;
+  width: 25%;
   position: relative;
-  left: 9rem;
-  top: 10px;
+  left: 36rem;
+  top: 1px;
+  
 }
 .left ul {
   display: flex;
@@ -41,21 +45,27 @@ nav {
   
 }
 .right{
-  width: 18%;
+   width: 7%;
+  position: relative;
+  right: 9rem;
+  height: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 button{
   position: relative;
-  top: 10px;
+  top: 2px;
   border: 2px solid blueviolet;
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 7px;
+  padding: 12px 5px;
   height: 20px;
-  width: 70px;
+  width: 80px;
   text-align: center;
-  font-size: 8px;
-  padding-top: 3.5px;
-  color:slategray;
+  font-size: 11px;
+  padding-top: 1.5px;
+  color: slategray;
   text-transform: uppercase;
-font-weight: 549;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 549;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
