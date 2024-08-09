@@ -29,6 +29,18 @@ nav {
   top: 1px;
   
 }
+a.logo {
+  position: relative;
+  left: 105px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  top: 1px;
+  width: 7%;
+  font-family: monospace;
+  text-align: center;
+}
 .left ul {
   display: flex;
   align-items: center;
