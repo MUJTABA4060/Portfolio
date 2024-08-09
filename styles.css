@@ -151,3 +151,15 @@ button{
         display: flex;
   }
 }
+@media (max-width:390px) {
+  a.logo{
+    width: 25%;
+    left: 2rem;
+  }
+}
+@media (max-width:250px) {
+ a.logo{
+  width: 30%;
+  left: 22px;
+  }
+}
