@@ -145,8 +145,8 @@ button{
   button{
     right: -82px;
         top: 2px;
-        padding: 3px 13px 18px 10px;
-        font-size: 13px;
+        padding: 2px 7px 15px 7px;
+        font-size: 12px;
         text-align: center;
         display: flex;
   }
@@ -156,10 +156,18 @@ button{
     width: 25%;
     left: 2rem;
   }
+  button{
+    padding: 2px 7px 15px 7px;
+    font-size: 12px;
+  }
 }
 @media (max-width:250px) {
  a.logo{
   width: 30%;
   left: 22px;
+  }
+  button{
+    padding: 2px 7px 15px 7px;
+    font-size: 12px;
   }
 }
