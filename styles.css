@@ -243,3 +243,16 @@ h4 {
   font-family: sans-serif;
   color: #e29802;
 }
+/* responsivness */
+@media (max-width:1024px) {
+
+  .text {
+    top: 5rem;
+    left: -13rem;
+  }
+  .Image img {
+    position: relative;
+    left: 38rem;
+    top: 7rem;
+  }
+}
