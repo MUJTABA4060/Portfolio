@@ -111,8 +111,8 @@ button{
 }
 @media (max-width:830px) {
   a.logo{
-    width: 12%;
-    left: 4rem;
+    width: 20%;
+    left: 2rem;
   }
   .left{
     width: 42%;
