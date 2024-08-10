@@ -249,6 +249,7 @@ h4 {
   left: 30rem;
   text-decoration: none;
   width: 10%;
+  /* letter-spacing: 1.3px; */
   height: 40px;
   top: 12rem;
   border: solid 1px #d79005;
@@ -260,13 +261,9 @@ h4 {
   font-weight: 600;
   transition: .22s ease-in;
 }
-.text a:hover {
-  transform: rotateY('30degrees');
+ a:hover {
+  transform: translateY('-3px');
   cursor: pointer;
   border-color: burlywood;
   text-decoration: #e29802;
-}
-.text a:before {
-  content: "";
- 
 }
