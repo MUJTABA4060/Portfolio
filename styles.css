@@ -13,6 +13,7 @@ body {
   width: 100%;
     color: burlywood;
     height: 50px;
+    position: fixed;
     border-bottom: 1px solid gray;
     border-bottom-width: thin;
     border-bottom-left-radius: 28px;
