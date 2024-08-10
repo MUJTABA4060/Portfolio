@@ -193,6 +193,7 @@ button{
 /* Main Content */
 
 .main {
+  background-color: #6ee7b7;
   width: 100%;
   height: fit-content;
   display: flex;
