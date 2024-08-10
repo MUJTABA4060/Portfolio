@@ -258,4 +258,9 @@ h4 {
   text-align: center;
   font-size: small;
   font-weight: 600;
+  transition: .2s ease-in;
+}
+.text a:hover {
+  color: #9874b8;
+ 
 }
