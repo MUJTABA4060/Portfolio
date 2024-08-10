@@ -148,6 +148,9 @@ button{
     top: 0.2rem;
     text-wrap: nowrap;
   }
+  .header{
+    height: 50px;
+  }
   button{
     right: -82px;
         top: 2px;
