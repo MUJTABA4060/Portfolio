@@ -242,3 +242,20 @@ h4 {
   font-family: sans-serif;
   color: #e29802;
 }
+.text a {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 30rem;
+  text-decoration: none;
+  width: 10%;
+  height: 40px;
+  top: 12rem;
+  border: solid 1px #d79005;
+  border-radius: 25px;
+  padding: 10px;
+  color: slategray;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+}
