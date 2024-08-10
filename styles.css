@@ -88,6 +88,9 @@ button{
   font-weight: 549;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* Responviness */
+
 @media  (max-width:1130px) {
   a.logo {
     left: 7rem;
