@@ -189,3 +189,14 @@ button{
     font-size: 12px;
   }
 }
+/* Main Content */
+
+.main {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  z-index: -10;
+}
