@@ -253,14 +253,20 @@ h4 {
   top: 12rem;
   border: solid 1px #d79005;
   border-radius: 25px;
-  padding: 10px;
+  padding: 11.5px;
   color: slategray;
   text-align: center;
   font-size: small;
   font-weight: 600;
-  transition: .2s ease-in;
+  transition: .22s ease-in;
 }
 .text a:hover {
-  color: #9874b8;
+  transform: rotateY('30degrees');
+  cursor: pointer;
+  border-color: burlywood;
+  text-decoration: #e29802;
+}
+.text a:before {
+  content: "";
  
 }
