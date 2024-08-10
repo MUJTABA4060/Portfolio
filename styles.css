@@ -113,6 +113,7 @@ button{
   a.logo{
     width: 20%;
     left: 2rem;
+    text-wrap: nowrap;
   }
   .left{
     width: 42%;
