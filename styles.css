@@ -221,3 +221,24 @@ button{
   left: -179px;
   z-index: -2;
 }
+.text p{
+  width: 20%;
+  position: relative;
+  top: 6rem;
+  left: -138px;
+  font-size: medium;
+  font-family: monospace;
+  font-weight: 600;
+  color: darkmagenta;
+  line-height: 19px;
+}
+h4 {
+  position: relative;
+  top: 50px;
+  font-size: medium;
+  align-items: self-start;
+  display: flex;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #e29802;
+}
