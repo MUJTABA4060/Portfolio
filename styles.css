@@ -268,9 +268,12 @@ h4 {
   }
 }
 @media (max-width: 768px) {
-  .Image img {
+ .Image {
+  left: 0rem;
+        top: 0rem;
+ } .Image img {
     position: relative;
-    left: 24rem;
+    left: 14rem;
     top: -8rem;
   }
   .text {
@@ -284,4 +287,17 @@ h4 {
     left: 42px;
 }
   
+}
+@media (max-width:375px) {
+  .Image {
+    left: 1rem;
+    top: -11rem;
+  }
+.Image img {
+  position: relative;
+  left: 0rem;
+  top: 0rem;
+  width: 95%;
+  }
+
 }
