@@ -201,17 +201,23 @@ button{
   position: relative;
   z-index: -10;
 }
+.Image {
+  position: relative;
+  left: 60rem;
+  top: 8rem;
+}
 .Image img {
   max-width: 350px;
   display: flex;
   position: relative;
-  left: 490px;
+  left: 0px;
   border: 1px solid #9874b8;
   border-radius: 175px;
-  top: 6rem;
+  top: 0rem;
   padding-bottom: 21px;
   align-items: center;
   padding-left: 17px;
+
 }
 .text {
   display: inline-flex;
@@ -250,9 +256,32 @@ h4 {
     top: 5rem;
     left: -13rem;
   }
-  .Image img {
-    position: relative;
+  .Image {
     left: 38rem;
     top: 7rem;
   }
+  .Image img {
+
+    position: relative;
+        top: 0rem;
+                left: 0rem;
+  }
+}
+@media (max-width: 768px) {
+  .Image img {
+    position: relative;
+    left: 24rem;
+    top: -8rem;
+  }
+  .text {
+    top: 5rem;
+        left: -20rem;
+        width: 30%;
+  }
+  h4 {
+    top: 54px;
+    width: 16rem;
+    left: 42px;
+}
+  
 }
