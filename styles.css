@@ -212,3 +212,12 @@ button{
   align-items: center;
   padding-left: 17px;
 }
+.text {
+  display: inline-flex;
+  line-height: 20px;
+  gap: 5px;
+  align-items: initial;
+  position: relative;
+  left: -179px;
+  z-index: -2;
+}
