@@ -206,7 +206,7 @@ a.logo {
 .Image {
   position: relative;
   left: 35rem;
-  top: 0.4rem;
+  top: -3.0rem;
 }
 .Image img {
   max-width: 350px;
@@ -239,9 +239,9 @@ a.logo {
   top: 1.3rem;
   left: -8rem;
   font-size: medium;
-  font-family: monospace;
+  font-family: ui-monospace;
   font-weight: 600;
-  color: #7828be;
+  color: #bbbac5e3;
   line-height: 19px;
 }
 h4 {
