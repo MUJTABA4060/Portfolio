@@ -48,6 +48,8 @@ a.logo {
   width: 7%;
   align-items: center;
   display: flex;
+  transition: .2s ease-in;
+  cursor: pointer;
 }
 
 .left ul {
