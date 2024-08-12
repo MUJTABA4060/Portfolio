@@ -310,27 +310,28 @@ h4 {
 }
 }
 /* btn */
-.btn{
+.Contact{
   position: relative;
-    display: flex;
-    right: -20rem;
-    top: -4.4rem;
-}
-
-#btn{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 1px;
-  z-index: -1;
-  background-color: #7828be;
-  transition: 2.5s linear;
+  right: -20rem;
+  top: -4.4rem;
   cursor: pointer;
 }
-#btn:hover{
-  color: #202938;
-  animation: step-end;
+.Contact li{
+  list-style: none;
+  cursor: pointer;
 }
-  
+.Contact a {
+
+text-decoration: none;
+color: #fff;
+border: #d89600 1px solid;
+padding: 4.4px;
+border-radius: 12px;
+font-size: small;
+font-family: system-ui;
+padding-top: 1.6px;
+cursor: pointer;
+
+}  
 
