@@ -206,7 +206,7 @@ button{
 }
 .Image {
   position: relative;
-  left: 60rem;
+  left: 33rem;
   top: 0.4rem;
 }
 .Image img {
@@ -309,6 +309,16 @@ h4 {
   left: -7rem;
   width: 50%;
 }
+}
+/* btn */
+#btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1px;
+  right: -15rem;
+  z-index: -1;
 }
   
 
