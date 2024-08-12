@@ -206,7 +206,7 @@ button{
 }
 .Image {
   position: relative;
-  left: 33rem;
+  left: 35rem;
   top: 0.4rem;
 }
 .Image img {
@@ -311,14 +311,27 @@ h4 {
 }
 }
 /* btn */
+.btn{
+  position: relative;
+    display: flex;
+    right: -20rem;
+    top: -4.4rem;
+}
+
 #btn{
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   padding: 1px;
-  right: -15rem;
   z-index: -1;
+  background-color: #7828be;
+  transition: 2.5s linear;
+  cursor: pointer;
+}
+#btn:hover{
+  color: #202938;
+  animation: step-end;
 }
   
 
