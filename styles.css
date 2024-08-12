@@ -74,22 +74,21 @@ a.logo {
   display: flex;
   justify-content: center;
 }
-button{
+.right a {
+  /* Add your styles here */
+  text-decoration: none;
+  color: #7828be;
+  border: #9874b8 1px solid;
+  width: 80%;
   position: relative;
-  top: 2px;
-  border: 2px solid blueviolet;
-  border-radius: 7px;
-  padding: 12px 5px;
-  height: 20px;
-  width: 80px;
-  text-align: center;
-  font-size: 11px;
-  padding-top: 1.5px;
-  color: slategray;
-  text-transform: uppercase;
-  font-weight: 549;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  font-family: ui-monospace;
+  padding-left: 5.6px;
 }
+
 
 /* Responviness */
 
