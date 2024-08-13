@@ -112,8 +112,22 @@ a.logo {
     width: 33%;
     left: 24rem;
   }
-  button{
-    padding: 2px 1px;
+  .right a {
+    text-decoration: none;
+    color: #7828be;
+    border: #9874b8 1px solid;
+    width: 5.5rem;
+    border-radius: 10px;
+    height: 25px;
+    position: relative;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    text-wrap: nowrap;
+    font-family: ui-monospace;
+    padding-left: 8.6px;
+    padding-top: 10px;
   }
 }
 @media (max-width:830px) {
@@ -126,17 +140,7 @@ a.logo {
     width: 42%;
         left: 15rem;
   }
- button{
-   
-    text-wrap: nowrap;
-        position: relative;
-        right: -82px;
-        top: 2px;
-        padding: 3px 13px 18px 10px;
-        font-size: 13px;
-        text-align: center;
-        display: flex;
-}
+
 
 }
 @media (max-width:750px) {
@@ -157,14 +161,7 @@ a.logo {
   .header{
     height: 50px;
   }
-  button{
-    right: -82px;
-        top: 2px;
-        padding: 2px 7px 15px 7px;
-        font-size: 12px;
-        text-align: center;
-        display: flex;
-  }
+
 }
 @media (max-width:440px) {
   a.logo{
@@ -175,10 +172,7 @@ a.logo {
     top: 0.2rem;
     text-wrap: nowrap;
   }
-  button{
-    padding: 2px 7px 15px 7px;
-    font-size: 12px;
-  }
+
 }
 @media (max-width:265px) {
  a.logo{
@@ -187,10 +181,7 @@ a.logo {
   position: absolute;
   top: 12px;
   }
-  button{
-    padding: 2px 7px 15px 7px;
-    font-size: 12px;
-  }
+  
 }
 /* Main Content */
 
