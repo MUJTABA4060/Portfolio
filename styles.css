@@ -273,8 +273,9 @@ h4 {
         top: 0rem;
  } .Image img {
     position: relative;
-    left: 8.8rem;
-    top: 1.2rem;
+    left: 12rem;
+    top:-3rem;
+    width: 17rem;
   }
   .text {
     top: 30rem;
