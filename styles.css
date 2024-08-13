@@ -301,48 +301,56 @@ h4 {
 @media (max-width: 768px) {
  
   .Image {
-  left: 0rem;
-        top: 0rem;
+    left: 17rem;
+    top: -1rem;
  } 
  .Image img {
-    position: relative;
-    left: 12rem;
-    top:-3rem;
     width: 17rem;
   }
   .text {
-    top: 30rem;
-        left: -5rem;
-        width: 45%;
+    top: 1rem;
+    left: -27rem;
+    width: 47%;
         padding: 20px;
 
         text-wrap: wrap;
         z-index: 1;
   }
-  h4 {
-    top: 54px;
+  .text h4 {
+    top: -7.4rem;
     width: 16rem;
-    left: 42px;
-}
-.right a {
-  position: relative;
-  right: -5rem;
-  top: 0.3rem;
+    left: 11.5rem;
+  }
+  .text p{
+    width: -webkit-fill-available;
+    text-wrap: wrap;
+    position: relative;
+    top: 1.3rem;
+    left: 1rem;
+    font-size: medium;
+    font-family: ui-monospace;
+    font-weight: 600;
+    color: #bbbac5e3;
+    line-height: 18px;
+  }
+.Contact {
+  right: 3rem;
+  top: -2.4rem;
 }
   
 }
 @media (max-width: 425px) {
-  .Image img {
-    position: relative;
-    left: 5.7rem;
-    top:-3rem;
-    width: 17rem;
+  .Image  {
+    position: absolute;
+    left: 5.6rem;
+    top: 3rem;
+    width: 17rem
   }
-  h4 {
-    top: -10.8rem;
-    width: 16rem;
-    left: 4.5rem;
-}
+ .text  h4 {
+    position: absolute;
+    top: -0.4rem;
+    left: 22.5rem;
+  }
   .text {
     top: 18rem;
         left: -12rem;
@@ -351,23 +359,43 @@ h4 {
         text-wrap: wrap;
         z-index: 1;
   }
+  .text p{
+    position: absolute;
+    top: 1rem;
+    left: 14rem;
+    width: 25rem;
+    text-wrap: wrap;
+  }
+  .right{
+    right: 4rem;
+    top: 0.4rem;
+  }
+  .Contact{
+    position: absolute;
+    top: 32rem;
+    left: 12.2rem;
+  }
 }
 @media (max-width:375px) {
-  .Image {
-    left: 1rem;
-    top: -1rem;
-  }
-.Image img {
-  position: relative;
-  left: 6rem;
-  top: -13rem;
-  width: 95%;
-}
-.text {
-  top: 23rem;
-  left: -7rem;
-  width: 50%;
-}
+ .Image{
+  position: absolute;
+  left: 3.9rem;
+  top: 2rem;
+  width: 17rem;
+ }
+ .text{
+  top: 17.7rem;
+  left: -13.3rem;
+  width: fit-content;
+  padding: 20px;
+  text-wrap: wrap;
+  z-index: 1;
+ }
+ .Contact{
+  position: absolute;
+  top: 31rem;
+  left: 10.2rem;
+ }
 }
 /* btn */
 
