@@ -339,7 +339,7 @@ h4 {
 }
   
 }
-@media (max-width: 460px) {
+@media (max-width: 660px) {
   .Image  {
     position: absolute;
     left: 5.6rem;
