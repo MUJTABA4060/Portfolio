@@ -271,7 +271,8 @@ h4 {
   .Image {
   left: 0rem;
         top: 0rem;
- } .Image img {
+ } 
+ .Image img {
     position: relative;
     left: 12rem;
     top:-3rem;
@@ -297,6 +298,27 @@ h4 {
   top: 0.3rem;
 }
   
+}
+@media (max-width: 425px) {
+  .Image img {
+    position: relative;
+    left: 5.7rem;
+    top:-3rem;
+    width: 17rem;
+  }
+  h4 {
+    top: -10.8rem;
+    width: 16rem;
+    left: 4.5rem;
+}
+  .text {
+    top: 18rem;
+        left: -12rem;
+        width: 30rem;
+        padding: 20px;
+        text-wrap: wrap;
+        z-index: 1;
+  }
 }
 @media (max-width:375px) {
   .Image {
