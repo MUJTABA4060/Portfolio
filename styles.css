@@ -199,9 +199,9 @@ a.logo {
   top: 51px;
 }
 .Image {
-  position: relative;
-  left: 35rem;
-  top: -3.0rem;
+  position: absolute;
+  left: 33rem;
+  top: 3.0rem;
 }
 .Image img {
   max-width: 350px;
@@ -221,18 +221,18 @@ a.logo {
   line-height: 20px;
   gap: 5px;
   align-items:center;
-  position: relative;
-  left: -13rem;
-  top: -2rem;
+  position: absolute;
+  left: 10rem;
+  top: 5rem;
   width: 30%;
   height: 80%;
   z-index: -2;
 }
 .text p{
   width: 55%;
-  position: relative;
-  top: 1.3rem;
-  left: -8rem;
+  position: absolute;
+  left: 0.1rem;
+  top: 2.5rem;
   font-size: medium;
   font-family: ui-monospace;
   font-weight: 600;
@@ -240,19 +240,20 @@ a.logo {
   line-height: 19px;
 }
 h4 {
-  position: relative;
+  position: absolute;
   font-size: medium;
   align-items: center;
-  top: -7rem;
+  top: 1rem;
   display: flex;
   font-weight: bold;
   left: 2rem;
-  color: #ffff;}
+  color: #ffff;
+}
   .Contact{
-    position: relative;
     display: flex;
-    right: -20rem;
-    top: -4.4rem;
+    position: absolute;
+    top: 12rem;
+    right: 20rem;
     cursor: pointer;
   }
   .Contact li{
