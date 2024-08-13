@@ -148,7 +148,9 @@ a.logo {
     display: none;
 
   }
+
 }
+
 @media (max-width:460px) {
   a.logo{
     width: 23%;
@@ -265,23 +267,33 @@ h4 {
   }
 }
 @media (max-width: 768px) {
- .Image {
+ 
+  .Image {
   left: 0rem;
         top: 0rem;
  } .Image img {
     position: relative;
-    left: 14rem;
-    top: -8rem;
+    left: 8.8rem;
+    top: 1.2rem;
   }
   .text {
-    top: 5rem;
-        left: -20rem;
-        width: 30%;
+    top: 30rem;
+        left: -5rem;
+        width: 45%;
+        padding: 20px;
+
+        text-wrap: wrap;
+        z-index: 1;
   }
   h4 {
     top: 54px;
     width: 16rem;
     left: 42px;
+}
+.right a {
+  position: relative;
+  right: -5rem;
+  top: 0.3rem;
 }
   
 }
