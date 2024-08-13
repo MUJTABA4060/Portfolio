@@ -32,6 +32,8 @@
         "nested-interactive": "off"
       }
     ],
-    "detect-css-reflows/composite": "off"
+    "detect-css-reflows/composite": "off",
+    "button-type": "off",
+    "no-inline-styles": "off"
   }
 }
