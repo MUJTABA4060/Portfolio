@@ -182,8 +182,8 @@ a.logo {
   left: 22px;
   position: absolute;
   top: 12px;
-  }
-  
+}
+
 }
 /* Main Content */
 
@@ -196,7 +196,7 @@ a.logo {
   justify-content: left;
   position: relative;
   z-index: -1;
-  top: 55px;
+  top: 51px;
 }
 .Image {
   position: relative;
@@ -214,7 +214,7 @@ a.logo {
   padding-bottom: 21px;
   align-items: center;
   padding-left: 17px;
-
+  
 }
 .text {
   display: flex;
@@ -248,22 +248,54 @@ h4 {
   font-weight: bold;
   left: 2rem;
   color: #ffff;}
-/* responsivness */
-@media (max-width:1024px) {
-
+  .Contact{
+    position: relative;
+    display: flex;
+    right: -20rem;
+    top: -4.4rem;
+    cursor: pointer;
+  }
+  .Contact li{
+    list-style: none;
+    cursor: pointer;
+  }
+  .Contact a {
+  
+  text-decoration: none;
+  color: #fff;
+  border: #d89600 1px solid;
+  padding: 4.4px;
+  border-radius: 12px;
+  font-size: small;
+  font-family: system-ui;
+  padding-top: 1.6px;
+  cursor: pointer;
+  
+  }  
+  /* responsivness */
+  @media (max-width:1024px) {
+    
   .text {
-    top: 5rem;
-    left: -13rem;
+    top: 6rem;
+    left: -15rem;
   }
   .Image {
-    left: 38rem;
-    top: 7rem;
+    left: 23rem;
+    top: 5rem;
+  }
+  h4 {
+    top: -9rem;
+    left: 1rem;
   }
   .Image img {
 
     position: relative;
         top: 0rem;
                 left: 0rem;
+  }
+  .Contact{
+    right: -10rem;
+    top: 2.6rem;
   }
 }
 @media (max-width: 768px) {
@@ -338,28 +370,4 @@ h4 {
 }
 }
 /* btn */
-.Contact{
-  position: relative;
-  display: flex;
-  right: -20rem;
-  top: -4.4rem;
-  cursor: pointer;
-}
-.Contact li{
-  list-style: none;
-  cursor: pointer;
-}
-.Contact a {
-
-text-decoration: none;
-color: #fff;
-border: #d89600 1px solid;
-padding: 4.4px;
-border-radius: 12px;
-font-size: small;
-font-family: system-ui;
-padding-top: 1.6px;
-cursor: pointer;
-
-}  
 
