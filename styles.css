@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 .Logo  a{
   display: flex;
@@ -50,8 +51,111 @@ body {
   cursor: pointer;
 }
 .content {
-  display: inline-block;
-  width: 50%;
-  position: absolute;
-  top: 15rem;
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 5rem;
+}
+.items{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 3rem;
+    width: auto;
+    justify-content: space-between;
+}
+.items p{
+    width: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 7rem;
+    font-family: system-ui;
+}
+.items button {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    right: -32rem;
+}
+.items img {
+    width: 20rem;
+    position: relative;
+    right: 22rem;
+    border: 1px solid darkgray;
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 0 0.5rem;
+}
+
+@media (max-width:1024px) {
+    .items button {
+        right: -25rem;
+    }
+    
+}
+@media (max-width:768px) {
+    .content {
+        position: absolute;
+    }
+   .items p {
+        left: 5rem;
+    }
+   .items button{
+        right: -22rem;
+    }
+    .items img {
+        right: 15rem;
+    }
+}
+@media (max-width: 425px) {
+    
+    .Logo {
+        display: flex;
+    align-items: center;
+    position: absolute;
+    left: 2rem;
+    }
+    .Logo a {
+        display: flex;
+        position: relative;
+        left: 0rem;
+        text-decoration: none;
+        font-size: 20px;
+        color: #a042a0;
+        cursor: pointer;
+        font-family: monospace;
+    }
+    .links {
+        display: none;
+    }
+
+    .items {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 3rem;
+        left: 1rem;
+        width: 96%;
+        justify-content: space-between;
+    }
+    .items p {
+        position: absolute;
+        top: 21rem;
+        left: 6rem;
+        width: 50%;
+        text-align: center;
+    }
+    .items button {
+        position: relative;
+        top: 20rem;
+        right: -10.2rem;
+    }
+    .items img {
+        right: 2.9rem;
+        
+    }
 }
