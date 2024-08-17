@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -278,15 +279,18 @@ h4 {
     
   .text {
     top: 3rem;
-    left: -15rem;
+    left: 8rem;
   }
   .Image {
     left: 23rem;
     top: 1rem;
   }
   h4 {
-    top: -9rem;
+    top: 1rem;
     left: 1rem;
+  }
+  .text p{
+    width: 60%;
   }
   .Image img {
 
@@ -295,38 +299,37 @@ h4 {
                 left: 0rem;
   }
   .Contact{
-    right: -10rem;
-    top: -0.4rem;
+    right: 12rem;
+    top: 10.6rem;
   }
 }
 @media (max-width: 768px) {
  
   .Image {
     left: 17rem;
-    top: -1rem;
+    top: 2rem;
  } 
  .Image img {
     width: 17rem;
   }
   .text {
-    top: 1rem;
-    left: -27rem;
-    width: 47%;
-        padding: 20px;
-
-        text-wrap: wrap;
-        z-index: 1;
+    top: 7rem;
+    left: 1rem;
+    width: 30%;
+    padding: 20px;
+    text-wrap: wrap;
+    z-index: 1;
   }
   .text h4 {
-    top: -7.4rem;
+    top: -2.4rem;
     width: 16rem;
-    left: 11.5rem;
+    left: 2.5rem;
   }
   .text p{
     width: -webkit-fill-available;
     text-wrap: wrap;
-    position: relative;
-    top: 1.3rem;
+    position: absolute;
+    top: -0.7rem;
     left: 1rem;
     font-size: medium;
     font-family: ui-monospace;
@@ -335,8 +338,8 @@ h4 {
     line-height: 18px;
   }
 .Contact {
-  right: 3rem;
-  top: -2.4rem;
+  right: 9rem;
+  top: 8.6rem;
 }
   
 }
@@ -349,11 +352,12 @@ h4 {
   }
  .text  h4 {
   position: absolute;
-  top: -0.4rem;
+  top: -1.2rem;
   left: 5.5rem;
   }
   .text {
-    top: 17.7rem;
+    top: 21.7rem;
+    width: 70%;
     right: 0rem;
     left: 4.9rem;
     text-wrap: wrap;
@@ -366,6 +370,7 @@ h4 {
     width: 17rem;
     text-align: center;
     text-wrap: wrap;
+    top: 0.1rem;
   }
   .right{
     right: 4rem;
@@ -373,8 +378,8 @@ h4 {
   }
   .Contact{
     position: absolute;
-    top: 40rem;
-    left: 11.4rem;
+    top: 33rem;
+    left: 11.7rem;
   }
 }
 @media (max-width:375px) {
