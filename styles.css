@@ -157,14 +157,14 @@ body {
     .items p {
         position: absolute;
         top: 21rem;
-        left: 6rem;
+        left: 7.7rem;
         width: 50%;
         text-align: center;
     }
     .items button {
         position: relative;
-        top: 22rem;
-        right: -10.2rem;
+        top: 20rem;
+        right: -12.2rem;
     }
     .items img {
         right: 2.9rem;
