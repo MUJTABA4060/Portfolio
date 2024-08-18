@@ -111,7 +111,7 @@ body {
         right: 15rem;
     }
 }
-@media (max-width: 455px) {
+@media (max-width: 600px) {
     
     .Logo {
         display: flex;
@@ -151,8 +151,8 @@ body {
     }
     .items button {
         position: relative;
-        top: 20rem;
-        right: -10.2rem;
+        top: 22rem;
+        right: -9.2rem;
     }
     .items img {
         right: 2.9rem;
