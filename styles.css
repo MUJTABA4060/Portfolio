@@ -50,6 +50,13 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
+i.ri-menu-5-line {
+    font-size: 1.2rem;
+    color: aliceblue;
+    display: flex;
+    opacity: 2rem black;
+    cursor: pointer;
+}
 .content {
     display: flex;
     width: 100%;
@@ -125,6 +132,14 @@ body {
 }
 @media (max-width: 600px) {
     
+    i.ri-menu-5-line {
+        display: flex;
+        position:relative;
+        left: 25rem;
+        font-size: larger;
+        color: purple;
+        cursor: pointer;transform: rotateY('30deg');
+    }
     .Logo {
         display: flex;
     align-items: center;
@@ -141,7 +156,7 @@ body {
         cursor: pointer;
         font-family: monospace;
     }
-    .links {
+    .links a{
         display: none;
     }
 
