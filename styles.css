@@ -138,7 +138,7 @@ i.ri-menu-5-line {
         left: 25rem;
         font-size: larger;
         color: purple;
-        cursor: pointer;transform: rotateY('30deg');
+        cursor: pointer;
     }
     .Logo {
         display: flex;
