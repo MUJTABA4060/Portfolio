@@ -110,3 +110,7 @@ html, body {
     transition: .3s ease-in-out;
     /* transform: rotateY('40deg'); */
 }
+img {
+    width: 80vh;
+    right: 9rem;
+}
