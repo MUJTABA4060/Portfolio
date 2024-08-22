@@ -9,3 +9,104 @@ html, body {
     background-color: #000000;
     overflow: hidden;
 }
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0px 20px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    color: #988a8a;
+}
+
+.navbar ul li a.active{
+    color: #807474;
+}
+.btn {
+  position: relative;
+}
+.btn button {
+    border: #807474 1px solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    transition: .2s ease-in-out;
+}
+.btn button:hover {
+    color: #988a8a;
+}
+
+/* .home section */
+
+.home {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    width: 100vw;
+    height: 60vh;
+    top: 08rem;
+   /* background: #988a8a; */
+}
+.text {
+    width: 50vw;
+    /* height: 60vh; */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    color: aliceblue;
+    /* top: 2rem; */
+}
+.text span {
+    font-size: 1.29rem;
+    color: cornflowerblue;
+}
+
+.img img {
+    width: 50vw;
+    /* height: 60vh; */
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid #7726b9bd;
+    border-radius: 5rem;
+    z-index: 2;
+    transition: .3s ease-in-out;
+    /* transform: rotateY('40deg'); */
+}
