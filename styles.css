@@ -101,6 +101,11 @@ body {
   padding: 22px 35px;
   text-align: -webkit-center;
   position: absolute;
+  display: grid;
+  position: absolute;
+  top: -4rem;
+  width: 35vw;
+  left: 6rem;
 }
 
 .text span {
@@ -172,15 +177,16 @@ img {
     top: 19rem;
   }
   .text p {
-    position: absolute;
-    top: -11rem;
-    width: 22rem;
-    text-align: center;
-    left: 3rem;
-    display: inline-grid;
-    align-items: center;
+      padding: 22px 35px;
+      text-align: -webkit-center;
+      position: absolute;
+      display: grid;
+      position: absolute;
+      top: -13rem;
+      width: 70vw;
+      left: 4rem;
+    }
   }
-}
 @media screen and (max-width: 375px) {
   .img img {
     position: absolute;
@@ -189,7 +195,7 @@ img {
   }
   .text p {
     position: absolute;
-    left: 0.99rem;
+    left: 3.8rem;
   }
 }
 @media screen and (max-width: 320px) {
@@ -197,8 +203,14 @@ img {
     position: absolute;
     top: 20rem;
     width: 87vw;
-    right: -0.4rem;
+    right: 0.9rem;
     border-radius: 20rem;
     height: 60vh;
   }
-}
+  .text p {
+    position: absolute;
+        left: 2.5rem;
+        width: 80vw;
+    }
+  }
+
