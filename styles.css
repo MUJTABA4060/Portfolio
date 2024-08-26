@@ -143,7 +143,8 @@ img {
 
 @media screen and (max-width: 768px) {
   .img img {
-    width: auto;
+    width: 40vw;
+    padding: 24px 8px;
     position: absolute;
     right: 3rem;
     top: 3rem;
@@ -163,18 +164,41 @@ img {
     height: 100vh;
   }
 
-  .img {
-    display: inline-block;
-    position: relative;
-    top: 2rem;
+  .img img {
+    width: 76vw;
+    padding: 24px 8px;
+    position: absolute;
+    right: 3rem;
+    top: 19rem;
   }
   .text p {
     position: absolute;
     top: -11rem;
     width: 22rem;
     text-align: center;
-    left: 2rem;
+    left: 3rem;
     display: inline-grid;
     align-items: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .img img {
+    position: absolute;
+    top: 20rem;
+    right: 2.4rem;
+  }
+  .text p {
+    position: absolute;
+    left: 0.99rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .img img {
+    position: absolute;
+    top: 20rem;
+    width: 87vw;
+    right: -0.4rem;
+    border-radius: 20rem;
+    height: 60vh;
   }
 }
