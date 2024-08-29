@@ -43,7 +43,7 @@ justify-content: space-between;
   font-size: 1.15em;
   font-weight: 600;
   color: beige;
-  font-family: monospace;
+  font-family: 'Times New Roman', Times, serif;
   cursor: pointer;
   padding: 0 1em;
   cursor: pointer;
@@ -78,12 +78,13 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 05em;
+    top: 4.5em;
     left: 0;
     right: 0;
     width: 100%;
     height: 50vh;
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.141);
+    /* background-color: antiquewhite; */
   }
   #navbar-links ul  {
     flex-direction: column;
