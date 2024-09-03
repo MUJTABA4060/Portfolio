@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(26, 22, 22, 0.83) 16%,
+    rgba(28, 27, 27, 0.83) 48%,
+    rgba(26, 22, 22, 0.83) 75%
+  );
+  border-radius: 12px;
+}
