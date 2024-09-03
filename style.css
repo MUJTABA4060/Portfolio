@@ -2,20 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgba(26, 22, 22, 0.83) 16%,
-    rgba(28, 27, 27, 0.83) 48%,
-    rgba(26, 22, 22, 0.83) 75%
-  );
-  border-radius: 12px;
+  border-radius: 20px;
+max-width: 1024px;
+height: 100vh;
+
 }
 .navbar {
+  z-index: 9999;
   width: 100vw;
   height: 10vh;
   background-color: black;
