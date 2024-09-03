@@ -22,7 +22,8 @@
       {
         "ignore": [
           "height: fit-content",
-          "width: fit-content"
+          "width: fit-content",
+          "-webkit-backdrop-filter"
         ]
       }
     ],
