@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 * {
   
   margin: 0;
@@ -75,4 +77,66 @@ ul li a {
   padding: 3rem 2rem;
   position: relative;
   top: -1em;
+}
+.left {
+  position: relative;
+    left: 7em;
+}
+.left p {
+  width: 16em;
+  text-align: center;
+  position: relative;
+  left: 0em;
+  color: whitesmoke;
+  font-family: Adlam Display;
+  font-size: 23px;
+}
+.btn {
+  position: relative;
+  top: 9em;
+  left: -20em;
+  padding: 1.2em 3em;
+}
+.btn a{
+  cursor: pointer;
+  text-decoration: none;
+  color: antiquewhite;
+}
+span {
+  color: rgba(180, 214, 216, 1);
+}
+.btn  .one {
+  border: 2px solid rgba(121, 31, 236, 0.99);
+  padding: .6em 1em;
+  background-color: rgba(217, 217, 217, 1);
+  color: rgba(121, 31, 236, 0.99);
+  border-radius: 14px;
+  font-family: jetbrains mono;
+  position: relative;
+  left: -10px;
+}
+.btn .two {
+  border: 1px solid rgba(217, 217, 217, 1);
+  background-color: rgba(121, 31, 236, 0.99);
+  color: rgba(0, 0, 0, 1);
+  padding: .6em 1.3em;
+  border-radius: 14px;
+  position: relative;
+  font-family: jetbrains mono;
+  left: 2px;
+}
+.right {
+  height: 28em;
+  position: relative;
+  right: 9em;
+}
+.right img {
+  border: 1px solid purple;
+  border-radius: 250px;
+  width: 23em;
+  padding-left: .9em;
+  position: relative;
+  top: 4em;
+  right: 2em;
+  z-index: -3;
 }
